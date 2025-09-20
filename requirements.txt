@@ -56,7 +56,8 @@ docker-pycreds==0.4.0
 einops==0.5.0
 evaluate==0.4.2
 executing==1.2.0
-faiss-gpu==1.7.2
+#faiss-gpu==1.7.2
+faiss-cpu==1.7.2
 fastjsonschema==2.16.3
 fastrlock==0.8.1
 filelock==3.12.0
@@ -144,17 +145,18 @@ notebook==6.5.4
 notebook-shim==0.2.3
 numexpr==2.8.4
 numpy
-nvidia-cublas-cu11==11.10.3.66
-nvidia-cuda-cupti-cu11==11.7.101
-nvidia-cuda-nvrtc-cu11==11.7.99
-nvidia-cuda-runtime-cu11==11.7.99
-nvidia-cudnn-cu11==8.5.0.96
-nvidia-cufft-cu11==10.9.0.58
-nvidia-curand-cu11==10.2.10.91
-nvidia-cusolver-cu11==11.4.0.1
-nvidia-cusparse-cu11==11.7.4.91
-nvidia-nccl-cu11==2.14.3
-nvidia-nvtx-cu11==11.7.91
+# GPU없음
+#nvidia-cublas-cu11==11.10.3.66
+#nvidia-cuda-cupti-cu11==11.7.101
+#nvidia-cuda-nvrtc-cu11==11.7.99
+#nvidia-cuda-runtime-cu11==11.7.99
+#nvidia-cudnn-cu11==8.5.0.96
+#nvidia-cufft-cu11==10.9.0.58
+#nvidia-curand-cu11==10.2.10.91
+#nvidia-cusolver-cu11==11.4.0.1
+#nvidia-cusparse-cu11==11.7.4.91
+#nvidia-nccl-cu11==2.14.3
+#nvidia-nvtx-cu11==11.7.91
 oci==2.112.1
 omegaconf==2.2.3
 onnxruntime==1.15.0
@@ -252,7 +254,8 @@ tqdm==4.66.3
 traitlets==5.9.0
 transformers==4.36.0
 trec-car-tools==2.6
-triton==2.0.0.dev20221103
+# GPU 가속 라이브러리 
+#triton==2.0.0.dev20221103
 trl==0.4.4
 typer==0.7.0
 typing-inspect==0.9.0
